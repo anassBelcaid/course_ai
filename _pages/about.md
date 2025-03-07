@@ -1,34 +1,43 @@
 ---
 layout: about
-title: about
+title: CS241
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+This course provides a comprehensive introduction to Artificial Intelligence, covering fundamental techniques that enable intelligent decision-making. Students will explore classical search algorithms, adversarial search in competitive environments, constraint satisfaction problems (CSPs) for solving complex puzzles, and Markov Decision Processes (MDPs) for sequential decision-making. The course also delves into reinforcement learning, where agents learn optimal behaviors through interaction, and Bayesian networks, which offer a probabilistic framework for reasoning under uncertainty. Through theoretical foundations and practical applications, students will develop a solid understanding of AI's core principles and problem-solving strategies.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## Course Goals
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Upon completion of the course, students should be able to:  
+
+- Implement and experiment with fundamental AI algorithms, including search, adversarial search, constraint satisfaction, Markov Decision Processes (MDPs), reinforcement learning, and Bayesian networks.  
+- Analyze and compare the efficiency, completeness, and optimality of different AI techniques.  
+- Apply AI methods to solve real-world problems requiring planning, decision-making, and uncertainty handling.  
+- Understand and critically evaluate research papers in artificial intelligence.  
+- Extend existing AI algorithms by exploring new heuristics, learning strategies, or probabilistic models.
+
+
+## Prerequisite Knowledge:
+
+Students should have a solid understanding of the following areas:  
+
+- **Algorithms**: e.g., How do uninformed and informed search algorithms work? What is the minimax algorithm used for?  
+- **Probability**: e.g., What is Bayes' rule? How do you compute conditional probabilities?  
+- **Discrete Mathematics**: e.g., What are graphs, trees, and state spaces? How do constraints propagate in CSPs?  
+- **Linear Algebra**: e.g., What are eigenvalues and eigenvectors? How do you represent probability distributions using matrices?  
+- **Programming**: e.g., How do you implement and test algorithms efficiently? How do you handle structured data in Python?  
+- **Numerical Computing**: e.g., How do you solve linear systems? How do you represent and manipulate Markov models computationally?
+
+## Prerequisites:
+- **Prerequisites**: CS111, CS113, CS122, CS123, CS221  
+- **Minimum Grades**: B in CS111, CS113, CS122, CS123, CS221  
+- **Corequisites**: None  
+- **Anti-requisites**: None  
+- **Anti-req Prohibits**: None
+
+---
+
+- **Lectures:** Monday 9:30-12:30am, Room 206 ENSA-Tetouan
+<!-- - **Office Hours Location:** [Gates-Hillman Center 8228](https://goo.gl/maps/74vUj6uoaTTzYM937){:target="\_blank"} -->
+- **Discussion:** [Piazza](https://piazza.com){:target="\_blank"}
+- **Contact:** For external enquiries, personal matters or in emergencies, you can email us at *a.belcaid@uae.ac.ma*.
