@@ -150,6 +150,9 @@ collections:
     output: false
   projects:
     output: false
+  assignments:
+        output: true
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
