@@ -3,7 +3,6 @@ layout: distill
 title: Non Informed Search
 description: Introduction to the search algorithms and non informed search
 date: 2025-02-15
-permalink : noninformedsearch
 
 chart:
   chartjs: true

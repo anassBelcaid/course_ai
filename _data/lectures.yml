@@ -20,7 +20,7 @@
   slides: "https://docs.google.com/presentation/d/1TXI0XjDlmkeaVSSXX__1ItTmz1CaGdso/edit?usp=sharing&ouid=109099988662065390850&rtpof=true&sd=true"
   # annotated: "https://drive.google.com/open?id=1OLREY-CC8OIZfY_8G1lEdqzSMsNZXHTe"
   # video: "https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=388ec3f4-de78-4f5e-b5ca-a9d001296630"
-  notes: "https://anassbelcaid.github.io/course_ai/noninformedsearch/"
+  notes: "https://anassbelcaid.github.io/course_ai/intro/noninformedsearch/"
   readings:
     - Russel Textbook <a href= "https://aima.cs.berkeley.edu/"> AIMA 3.1-3.4</a>
   logistics:
@@ -33,7 +33,7 @@
   slides: "https://docs.google.com/presentation/d/1BBKKs8YTAj3hus4WWXTkvfpkT52KflnF/edit?usp=drive_link&ouid=109099988662065390850&rtpof=true&sd=true"
   # annotated: "https://drive.google.com/open?id=1OLREY-CC8OIZfY_8G1lEdqzSMsNZXHTe"
   # video: "https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=388ec3f4-de78-4f5e-b5ca-a9d001296630"
-  # notes: "https://sailinglab.github.io/pgm-spring-2019/notes/lecture-02/"
+  notes: "https://anassbelcaid.github.io/course_ai/intro/informedsearch/"
   readings:
     - Russel Textbook <a href= "https://aima.cs.berkeley.edu/"> AIMA 3.1-3.4</a>
   logistics:
