@@ -38,7 +38,32 @@
     - Russel Textbook <a href= "https://aima.cs.berkeley.edu/"> AIMA 3.1-3.4</a>
   logistics:
 
+- title: "Module 2 : Constrained Satisfaction Problems"
 
+- date: 17/03
+  lecturer: Belcaid
+  title: >
+    <strong> Constrained Satisfaction Problems I</strong>
+  slides: "https://docs.google.com/presentation/d/1zceHUvyuizq53KxjEX6GkfkX3y_qgVks/edit?usp=sharing&ouid=109099988662065390850&rtpof=true&sd=true"
+  # annotated: "https://drive.google.com/file/d/1McR2fT6qGooQXMLVhOHSQsQ14lcKJKtP"
+  # video: "https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bab0b8be-a86f-4a46-9dae-a9d0012950cb"
+  notes: "https://anassbelcaid.github.io/course_ai/csp/csp"
+  readings:
+    - Russel Textbook <a href= "https://aima.cs.berkeley.edu/"> AIMA 6.1 </a>
+
+  logistics:
+
+
+- date: 24/03
+  lecturer: Belcaid
+  title: >
+    <strong> Constrained Satisfaction Problems II</strong>
+  slides: "https://docs.google.com/presentation/d/1dE-HE03KbZmRKY-0FWxN-jK2X3gwz84F/edit?usp=sharing&ouid=109099988662065390850&rtpof=true&sd=true"
+  # annotated: "https://drive.google.com/file/d/1McR2fT6qGooQXMLVhOHSQsQ14lcKJKtP"
+  # video: "https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bab0b8be-a86f-4a46-9dae-a9d0012950cb"
+  notes: "https://anassbelcaid.github.io/course_ai/csp/csp"
+  readings:
+    - Russel Textbook <a href= "https://aima.cs.berkeley.edu/"> AIMA 6.2 - 6.5</a>
+
+  logistics:
 - title: ""
-
-
