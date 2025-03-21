@@ -35,6 +35,11 @@ ninja.data = [{
           description: "In this assignment, students will implement basic machine learning algorithms and explore fundamental concepts.",
           section: "Assignments",handler: () => {
               window.location.href = "/course_ai/assignments/01_search/";
+            },},{id: "assignments-constraints-satisfaction-problems",
+          title: 'Constraints Satisfaction Problems',
+          description: "Assignement on solving the NQueen using backtracking",
+          section: "Assignments",handler: () => {
+              window.location.href = "/course_ai/assignments/02_constraints/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
