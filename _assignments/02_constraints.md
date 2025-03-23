@@ -74,6 +74,8 @@ By the end, you'll not only solidify your understanding of **CSPs and heuristics
 
 
 
+Here is the <a href="{{ site.url }}{{ site.baseurl }}/_assignments/csp_homework.zip"> starter code </a> for the project.
+
 ## Question 1 — Valid Board Check (4 pts)
 
 Before solving the N-Queens problem, we need a way to verify whether a given board configuration is valid — that is, no two queens are attacking each other.
