@@ -74,7 +74,7 @@ By the end, you'll not only solidify your understanding of **CSPs and heuristics
 
 
 
-Here is the <a href="{{ site.url }}{{ site.baseurl }}/_assignments/csp_homework.zip"> starter code </a> for the project.
+Here is the <a href="{{ '/csp/csp_homework.zip' | relative_url }}">Starter code </a> for this project.
 
 ## Question 1 — Valid Board Check (4 pts)
 

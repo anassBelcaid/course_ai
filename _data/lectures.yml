@@ -66,4 +66,19 @@
     - Russel Textbook <a href= "https://aima.cs.berkeley.edu/"> AIMA 6.2 - 6.5</a>
 
   logistics:
+
+- title: "Module 3 : Adversarial Search (Games)"
+
+- date: 01/04
+  lecturer: Belcaid
+  title: >
+    <strong> Adversarial Search</strong>
+  slides: "https://docs.google.com/presentation/d/110hmjsYCBqNlcS8zgC_DI62uvzOfYvLT/edit?usp=sharing&ouid=109099988662065390850&rtpof=true&sd=true"
+  # annotated: "https://drive.google.com/file/d/1McR2fT6qGooQXMLVhOHSQsQ14lcKJKtP"
+  # video: "https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bab0b8be-a86f-4a46-9dae-a9d0012950cb"
+  notes: "http://0.0.0.0:8080/course_ai/games/games"
+  readings:
+    - Russel Textbook <a href= "https://aima.cs.berkeley.edu/"> AIMA 6.1 </a>
+  logistics:
+
 - title: ""
