@@ -40,6 +40,11 @@ ninja.data = [{
           description: "Assignement on solving the NQueen using backtracking",
           section: "Assignments",handler: () => {
               window.location.href = "/course_ai/assignments/02_constraints/";
+            },},{id: "assignments-multi-agent-search",
+          title: 'Multi-Agent Search',
+          description: "Assignement on solving adversarial search",
+          section: "Assignments",handler: () => {
+              window.location.href = "/course_ai/assignments/03_adversarial_searh/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
