@@ -1,8 +1,8 @@
 ---
 layout: distill
-title: Introduction 
-description: Introduction to the course
-date: 2025-03-13
+title: Adversarial Search (Games)
+description: Games
+date: 2025-04-01
 chart:
   chartjs: true
   echarts: true
