@@ -58,15 +58,15 @@ toc:
 
 
 
-## 🧠 Introduction
+## Introduction
 
 In this assignment, you'll explore how **Constraint Satisfaction Problems (CSPs)** can be applied to the classic **N-Queens problem** — a challenge of placing N queens on an N×N chessboard so that none attack each other.
 
 You will implement and evaluate two fundamental approaches:
 
-- ✨ **Backtracking Search**: A depth-first strategy that places queens row by row while ensuring the board remains valid.
-- 🔁 **Local Search with [Min-Conflicts](https://en.wikipedia.org/wiki/Min-conflicts_algorithm)**: A heuristic method that starts with a complete assignment and iteratively resolves conflicts until a solution emerges.
-- 🧩 **Sudoku Solver with [Forward Checking](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem#Constraint_propagation)**: You’ll implement a CSP-based solver that fills in Sudoku puzzles by looking ahead and pruning invalid choices before they’re made.
+-  **Backtracking Search**: A depth-first strategy that places queens row by row while ensuring the board remains valid.
+-  **Local Search with [Min-Conflicts](https://en.wikipedia.org/wiki/Min-conflicts_algorithm)**: A heuristic method that starts with a complete assignment and iteratively resolves conflicts until a solution emerges.
+-  **Sudoku Solver with [Forward Checking](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem#Constraint_propagation)**: You’ll implement a CSP-based solver that fills in Sudoku puzzles by looking ahead and pruning invalid choices before they’re made.
 
 By the end, you'll not only solidify your understanding of **CSPs and heuristics**, but also visualize how these algorithms behave in real time.
 
@@ -103,7 +103,7 @@ This represents 4 queens placed on a 4×4 board.
 - Locate the function: `is_valid(queens)`
 - Complete the implementation so it correctly checks for conflicts.
 
-### 🧪 To Test Your Code
+###  To Test Your Code
 
 We’ve provided a test file with unit tests for this function.
 
@@ -128,7 +128,7 @@ The idea is simple:
 
 This process continues recursively until all queens are successfully placed, or no solution is found.
 
-### ✅ Your Task
+###  Your Task
 
 Implement the function `backtracking(board, row=0)` in the file `csp.py`. This function should:
 - Try placing one queen per row.
@@ -136,7 +136,7 @@ Implement the function `backtracking(board, row=0)` in the file `csp.py`. This f
 - Use recursion to proceed row by row.
 - Use backtracking when a dead-end is reached.
 
-### 🧩 Board Methods Available
+###  Board Methods Available
 
 The board object passed into your function is an instance of the `ChessBoard` class. You can use the following methods:
 
@@ -149,7 +149,7 @@ The board object passed into your function is an instance of the `ChessBoard` cl
 > ⚠️ **Attention**: You must call `board.root.update()` after placing or removing a queen to visualize the changes on the board.
 
 
-### 🧪 To Test Your Code
+###  To Test Your Code
 
 To test your implementation on a board of size `n` (e.g., 8), use the following command:
 
@@ -163,7 +163,7 @@ This will visually show your backtracking algorithm solving the N-Queens problem
 
 To enhance the efficiency of solving the N-Queens problem, we now move to a **constraint propagation** technique called **forward checking**.
 
-### 🧠 What Is Forward Checking?
+###  What Is Forward Checking?
 
 Instead of blindly placing queens and then checking validity, forward checking proactively eliminates choices by identifying **which squares are no longer available** after placing a queen.
 
@@ -189,19 +189,19 @@ def get_forbidden_squares(queens, board_size):
 - A set of `(row, col)` tuples representing all squares that are under attack by **any** queen currently on the board.
 
 
-### 📌 Reminder:
+###  Reminder:
 A square is considered **forbidden** if it shares:
 - The **same column** with another queen.
 - The **same diagonal** (positive or negative slope) with another queen.
 - The **same row** is automatically excluded by design (we place one queen per row).
 
 
-### 🧪 To Test Your Code
+###  To Test Your Code
 
 We’ve included a dedicated test suite for this function. Once implemented, run the following command to test only this part:
 
 ```bash
-pytest -m get_forbidden
+python test_forbidden.py
 ```
 
 <center>
@@ -213,7 +213,7 @@ pytest -m get_forbidden
 
 Now that you’ve implemented `get_forbidden_squares()`, you’re ready to build a smarter N-Queens solver using **forward checking**.
 
-### 🧠 What Will Your Algorithm Do?
+###  What Will Your Algorithm Do?
 
 Unlike simple backtracking, this version will:
 - Place one queen per row (as before),
@@ -225,7 +225,7 @@ Unlike simple backtracking, this version will:
 This form of **constraint propagation** helps prune the search space early — making the algorithm significantly faster and more efficient.
 
 
-### ✅ Your Task
+###  Your Task
 
 Implement the function `forward_search(board, row=0)` in the file `csp.py`.
 
@@ -236,7 +236,7 @@ Implement the function `forward_search(board, row=0)` in the file `csp.py`.
 - Backtrack if a dead-end is reached.
 
 
-### 🧩 Board Methods Available
+### Board Methods Available
 
 As with backtracking, you can use:
 
@@ -251,7 +251,7 @@ As with backtracking, you can use:
 > ⚠️ **Important**: Use `board.root.update()` to visualize each step and `mark_not_possible()` to highlight forbidden squares on the board.
 
 
-### 🧪 To Test Your Implementation
+###  To Test Your Implementation
 
 Run the following command to launch your visual solver with forward checking:
 
@@ -277,7 +277,7 @@ Sudoku is another **Constraint Satisfaction Problem (CSP)** where we must assign
 In this question, you will complete a **Sudoku solver using Forward Checking** by implementing two key functions.
 
 
-## 🧠 **Your Task**
+##  **Your Task**
 
 You are given a partially implemented **Sudoku solver**. The GUI, board setup, and visualization methods have been provided. However, you must complete the two most important **CSP methods**:
 
@@ -291,7 +291,7 @@ This function should return a **set of valid numbers** that can be placed at `(r
   - The same **column**.
   - The **3×3 block** the cell belongs to.
 
-#### 🔧 Function Signature (in `soduko_solver.py`):
+####  Function Signature (in `soduko_solver.py`):
 ```python
 def get_possible_values(board, row, col):
     ...
@@ -303,7 +303,7 @@ valid_numbers = get_possible_values(board, 2, 4)
 print(valid_numbers)  # Output: {1, 3, 5, 6, 9} (depends on board state)
 ```
 
-### 2️⃣ `solve_with_forward_checking(board)`
+###  `solve_with_forward_checking(board)`
 
 This function should implement **Sudoku solving using Forward Checking**:
 - **Find the next empty cell** (row, col).
@@ -318,7 +318,7 @@ def solve_with_forward_checking(board):
 ```
 
 
-## 🧩 **What’s Already Provided?**
+##  **What’s Already Provided?**
 You **do not** need to worry about:
 - The **Sudoku board visualization** (it’s already coded).
 - The **GUI updates** (handled automatically).
@@ -326,7 +326,7 @@ You **do not** need to worry about:
 
 Your focus is **only on implementing these two methods**.
 
-### 🧪 **To Test Your Code**
+###  **To Test Your Code**
 
 Once implemented, run the following command to test your solver:
 
@@ -343,7 +343,7 @@ python sudoku_solver.py
 - If the solution is incorrect or doesn’t appear, debug your `get_possible_values()` function.
 
 
-## 💡 **Hints**
+##  **Hints**
 - To extract all numbers in a row: `board[row]`
 - To extract all numbers in a column: `[board[r][col] for r in range(9)]`
 - To find the **3×3 block’s starting row/col**, use:
@@ -400,7 +400,7 @@ The main solver. It should:
 If a solution is found (no conflicts remain), return `True`.  
 If `max_steps` is reached and conflicts still exist, return `False`.
 
-### 🧪 To Test Your Implementation
+###  To Test Your Implementation
 
 Try running your local search algorithm on a **large board** to see how fast it performs:
 
@@ -410,7 +410,7 @@ python run_solver.py 100 min_conflicts
 
 You should see a solution computed quickly — even for 100×100 boards!
 
-> 🧠 Try increasing N to 200, 500, or even 1000 to explore the scalability of local search.
+>  Try increasing N to 200, 500, or even 1000 to explore the scalability of local search.
 
 
 <center>
