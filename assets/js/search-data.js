@@ -45,6 +45,11 @@ ninja.data = [{
           description: "Assignement on solving adversarial search",
           section: "Assignments",handler: () => {
               window.location.href = "/course_ai/assignments/03_adversarial_searh/";
+            },},{id: "assignments-reinforcement-learning",
+          title: 'Reinforcement Learning',
+          description: "Assignement on Reinforcement learning",
+          section: "Assignments",handler: () => {
+              window.location.href = "/course_ai/assignments/04_reinforcement_learning/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
